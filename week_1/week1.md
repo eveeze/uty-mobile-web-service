@@ -69,13 +69,13 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 
 #### Langkah 2: Menyetel Variabel Lingkungan
 - Pada menu search di taskbar , cari edit environment
-![edit environment](edit.png)
+![edit environment](edit.png)<br>
 - Lalu pilih Edit Environment Variable
-![edit environment variabel](edit_environment.png)
+![edit environment variabel](edit_environment.png)<br>
 - Klik Path dan edit
 ![path](path.png)
 - Tambahkan `C:flutter\src\flutter\bin` ke variabel lingkungan `Path` 
-![flutter path](addPath.png)
+![flutter path](addPath.png)<br>
 
 #### Langkah 3: Memverifikasi Instalasi
 - Jalankan perintah berikut di PowerShell untuk memverifikasi instalasi:
@@ -85,21 +85,31 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
     ```
 
 - Hasil nya akan keluar seperti ini :
-![terminal](terminal.png)
+![terminal](terminal.png)<br>
 - Masih ada error dan peringatan untuk mengatasi hal tersebut ktia perlu menginstal android studi dan hal pertama yang dapat kita lakukan adalah mengatasi 
 >  Flutter (Channel stable, 3.24.3, on Microsoft Windows [Version 10.0.22631.4169], locale en-US)
     ! Warning: `dart` on your path resolves to D:\dart-sdk\bin\dart.exe, which is not inside your current Flutter SDK
       checkout at D:\flutter\src\flutter. Consider adding D:\flutter\src\flutter\bin to the front of your path.
 - untuk mengatasi hal tersebut kita perlu mengubah urutan dari environment flutter agar berada diatas dari path environment dart
-![dart](dart.png)
+![dart](dart.png)<br>
 #### Langkah 4: Menginstal Android Studio
 - Saya mengunduh dan menginstal [Android Studio](https://developer.android.com/studio) serta menginstal plugin Flutter dan Dart.
-![install](install.png)
-- Saya juga mengonfigurasi Android SDK menggunakan `flutter doctor`.
-
-#### Langkah 5: Menyiapkan Emulator Android
-- Saya membuat perangkat virtual menggunakan AVD Manager di Android Studio, memastikan saya dapat menguji aplikasi Flutter di emulator.
-
----
+![install](install.png)<br>
+- Android Studio setelah selesai menginstall
+![android studio](androidStudio.png)<br>
+- Saya juga mengonfigurasi Android SDK.
+- Karena saya mengonfigurasi Android SDK di lokasi custom maka masih terjadi error 
+![error](terminal2.png)<br>
+- hal tersebut terjadi karena command line tools tidak ada dalam folder untuk menginstall nya berikut langkah langkahnya 
+- Buka Android Studio dan pilih seperti pada gambar.
+![sdk manager](sdkManager.png)<br>
+- Centang cmd tools latest untuk menginstall nya
+![cmd tools](cmdtools.png)<br>
+- Apply lalu buka terminal anda dan run `flutter Doctor`
+- Kalau masih kuning dan muncul 
+> Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+- jalankan `flutter doctor --android-licenses` dan terima semua syarat dengan klik y dan enter
+- 
 
 
