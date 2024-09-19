@@ -31,9 +31,10 @@ Web server berfungsi untuk menangani permintaan dari client (mobile/web) dan men
 - **Node.js**  
 - **Deno**  
 - **Bun**  
-- **Frameworks** (seperti **Express.js**, **Next.js**, **Nest.js**)  
+- **Express.js**
+- **Nest.js**)  
 - **Go**  
-- **Go Frameworks** (seperti **Gin**, **Fiber**)  
+
 ### Bahasa Pemrograman yang Saya Pelajari
 #### 1.1. <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" width="50" height="50"/> **Python**   
 Python merupakan bahasa pemrograman pertama yang saya pelajari. Awalnya, saya ingin mempelajari **C++**, namun saya kesulitan memahami konsep-konsepnya. Akhirnya, saya beralih ke Python, yang dikenal lebih mudah dipahami oleh pemula.
