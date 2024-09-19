@@ -82,11 +82,11 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 #### Langkah 1: Mengunduh Flutter SDK
 - Saya mengunjungi [Website Flutter](https://docs.flutter.dev/get-started/install) 
 - Pilih sistem operasi yang digunakan, saya menggunakan Windows 11<br>
-![Gambar sistem operasi](windows.png)
+![Gambar sistem operasi](images/windows.png)
 - Pilih Android karena kita akan menggunakan flutter dalam pengembangan aplikasi Android<br>
-![Gambar Android](android.png)
+![Gambar Android](images/android.png)
 - Setelah itu download `flutter_windows_3.24.3-stable`<br>
-![Gambar Download](download.png)
+![Gambar Download](images/download.png)
 - Buat folder untuk menyimpan flutter, misalnya di dalam `C:flutter/src/`
 - Pindahkan file yang sudah di-download ke dalam 
 - Ekstrak file yang sudah di-download, dalam hal ini `flutter_windows_3.24.3-stable`
@@ -94,13 +94,13 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 
 #### Langkah 2: Menyetel Variabel Lingkungan
 - Pada menu search di taskbar, cari edit environment<br>
-![edit environment](edit.png)<br>
+![edit environment](images/edit.png)<br>
 - Lalu pilih Edit Environment Variable<br>
-![edit environment variable](edit_environment.png)<br>
+![edit environment variable](images/edit_environment.png)<br>
 - Klik Path dan edit<br>
-![path](path.png)
+![path](images/path.png)
 - Tambahkan `C:flutter\src\flutter\bin` ke variabel lingkungan `Path` <br>
-![flutter path](addPath.png)<br>
+![flutter path](images/addPath.png)<br>
 
 #### Langkah 3: Memverifikasi Instalasi
 - Jalankan perintah berikut di PowerShell untuk memverifikasi instalasi:
@@ -110,26 +110,26 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
     ```
 
 - Hasilnya akan keluar seperti ini :<br>
-![terminal](terminal.png)<br>
+![terminal](images/terminal.png)<br>
 - Masih ada error dan peringatan untuk mengatasi hal tersebut kita perlu menginstal Android Studio dan hal pertama yang dapat kita lakukan adalah mengatasi 
 >  Flutter (Channel stable, 3.24.3, on Microsoft Windows [Version 10.0.22631.4169], locale en-US)
     ! Warning: `dart` on your path resolves to D:\dart-sdk\bin\dart.exe, which is not inside your current Flutter SDK
       checkout at D:\flutter\src\flutter. Consider adding D:\flutter\src\flutter\bin to the front of your path.
 - Untuk mengatasi hal tersebut kita perlu mengubah urutan dari environment flutter agar berada di atas dari path environment dart<br>
-![dart](dart.png)<br>
+![dart](images/dart.png)<br>
 #### Langkah 4: Menginstal Android Studio
 - Saya mengunduh dan menginstal [Android Studio](https://developer.android.com/studio) serta menginstal plugin Flutter dan Dart.<br>
-![install](install.png)<br>
+![install](images/install.png)<br>
 - Android Studio setelah selesai menginstal<br>
-![android studio](androidStudio.png)<br>
+![android studio](images/androidStudio.png)<br>
 - Saya juga mengonfigurasi Android SDK.
 - Karena saya mengonfigurasi Android SDK di lokasi custom maka masih terjadi error <br>
-![error](terminal2.png)<br>
+![error](images/terminal2.png)<br>
 - Hal tersebut terjadi karena command line tools tidak ada dalam folder. Untuk menginstalnya, berikut langkah-langkahnya:
 - Buka Android Studio dan pilih seperti pada gambar.<br>
-![sdk manager](sdkManager.png)<br>
+![sdk manager](images/sdkManager.png)<br>
 - Centang cmd tools latest untuk menginstalnya<br>
-![cmd tools](cmdtools.png)<br>
+![cmd tools](images/cmdtools.png)<br>
 - Apply lalu buka terminal anda dan run `flutter doctor`
 - Kalau masih kuning dan muncul 
 > Android toolchain - develop for Android devices (Android SDK version 34.0.0)
@@ -137,7 +137,7 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 - Jalankan `flutter doctor --android-licenses` dan terima semua syarat dengan klik y dan enter.
 - Untuk mengatasi bagian 'visual studio install is incomplete', maka kita harus menyelesaikan penginstalan dalam visual studio installer.
 - Setelah menyelesaikan instalasi, buka terminal dan jalankan `flutter doctor` dan pastikan sudah centang semua.<br>
-![doctor flutter](doctor.png)
+![doctor flutter](images/doctor.png)
 
 ## 4. Membuat Hello World dan Penjelasanya
 Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberapa bahasa pemrograman yang telah saya pelajari, beserta penjelasannya.
