@@ -56,11 +56,11 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 
 #### Langkah 1: Mengunduh Flutter SDK
 - Saya mengunjungi [Website Flutter](https://docs.flutter.dev/get-started/install) 
-- Pilih sistem operasi yang digunakan , saya menggunakan Windows 11
+- Pilih sistem operasi yang digunakan , saya menggunakan Windows 11<br>
 ![Gambar sistem operasi](windows.png)
-- Pilih Android karena kita akan menggunakan flutter dalam pengembangan aplikasi Android
+- Pilih Android karena kita akan menggunakan flutter dalam pengembangan aplikasi Android<br>
 ![Gambar Android](android.png)
-- Setelah itu download `flutter_windows_3.24.3-stable`
+- Setelah itu download `flutter_windows_3.24.3-stable`<br>
 ![Gambar Download](download.png)
 - Buat folder untuk menyimpan flutter , misalnya di dalam `C:flutter/src/`
 - Pindahkan file yang sudah di downlaod ke dalam 
@@ -68,13 +68,13 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 - Setelah ekstrak maka direktorinya menjadi seperti ini `C:flutter/src/flutter`
 
 #### Langkah 2: Menyetel Variabel Lingkungan
-- Pada menu search di taskbar , cari edit environment
+- Pada menu search di taskbar , cari edit environment<br>
 ![edit environment](edit.png)<br>
-- Lalu pilih Edit Environment Variable
+- Lalu pilih Edit Environment Variable<br>
 ![edit environment variabel](edit_environment.png)<br>
-- Klik Path dan edit
+- Klik Path dan edit<br>
 ![path](path.png)
-- Tambahkan `C:flutter\src\flutter\bin` ke variabel lingkungan `Path` 
+- Tambahkan `C:flutter\src\flutter\bin` ke variabel lingkungan `Path` <br>
 ![flutter path](addPath.png)<br>
 
 #### Langkah 3: Memverifikasi Instalasi
@@ -84,32 +84,32 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
     flutter doctor
     ```
 
-- Hasil nya akan keluar seperti ini :
+- Hasil nya akan keluar seperti ini :<br>
 ![terminal](terminal.png)<br>
 - Masih ada error dan peringatan untuk mengatasi hal tersebut ktia perlu menginstal android studi dan hal pertama yang dapat kita lakukan adalah mengatasi 
 >  Flutter (Channel stable, 3.24.3, on Microsoft Windows [Version 10.0.22631.4169], locale en-US)
     ! Warning: `dart` on your path resolves to D:\dart-sdk\bin\dart.exe, which is not inside your current Flutter SDK
       checkout at D:\flutter\src\flutter. Consider adding D:\flutter\src\flutter\bin to the front of your path.
-- untuk mengatasi hal tersebut kita perlu mengubah urutan dari environment flutter agar berada diatas dari path environment dart
+- untuk mengatasi hal tersebut kita perlu mengubah urutan dari environment flutter agar berada diatas dari path environment dart<br>
 ![dart](dart.png)<br>
 #### Langkah 4: Menginstal Android Studio
-- Saya mengunduh dan menginstal [Android Studio](https://developer.android.com/studio) serta menginstal plugin Flutter dan Dart.
+- Saya mengunduh dan menginstal [Android Studio](https://developer.android.com/studio) serta menginstal plugin Flutter dan Dart.<br>
 ![install](install.png)<br>
-- Android Studio setelah selesai menginstall
+- Android Studio setelah selesai menginstall<br>
 ![android studio](androidStudio.png)<br>
 - Saya juga mengonfigurasi Android SDK.
-- Karena saya mengonfigurasi Android SDK di lokasi custom maka masih terjadi error 
+- Karena saya mengonfigurasi Android SDK di lokasi custom maka masih terjadi error <br>
 ![error](terminal2.png)<br>
 - hal tersebut terjadi karena command line tools tidak ada dalam folder untuk menginstall nya berikut langkah langkahnya 
-- Buka Android Studio dan pilih seperti pada gambar.
+- Buka Android Studio dan pilih seperti pada gambar.<br>
 ![sdk manager](sdkManager.png)<br>
-- Centang cmd tools latest untuk menginstall nya
+- Centang cmd tools latest untuk menginstall nya<br>
 ![cmd tools](cmdtools.png)<br>
 - Apply lalu buka terminal anda dan run `flutter Doctor`
 - Kalau masih kuning dan muncul 
 > Android toolchain - develop for Android devices (Android SDK version 34.0.0)
     ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
 - jalankan `flutter doctor --android-licenses` dan terima semua syarat dengan klik y dan enter
-- 
+- untuk mengatasi bagian 'visual studio install is incomplete' maka kita harus modify install ulang vscode kita 
 
 
