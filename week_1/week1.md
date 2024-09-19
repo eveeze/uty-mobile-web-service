@@ -110,6 +110,6 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 > Android toolchain - develop for Android devices (Android SDK version 34.0.0)
     ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
 - jalankan `flutter doctor --android-licenses` dan terima semua syarat dengan klik y dan enter
-- untuk mengatasi bagian 'visual studio install is incomplete' maka kita harus modify install ulang vscode kita 
-
-
+- untuk mengatasi bagian 'visual studio install is incomplete' maka kita harus menyelesaikan penginstalan dalam visual studio installer
+- setelah menyelesaikan instalasi buka terminal dan jalankan `flutter doctor` dan pastikan sudah centang semua <br>
+![doctor flutter](doctor.png)
