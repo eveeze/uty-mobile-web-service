@@ -13,7 +13,7 @@ Selamat datang di repositori **UTY Mobile & Web Service**! Repositori ini berfun
 ## 📅 **Daftar Laporan Mingguan**
 Setiap laporan mingguan akan ditempatkan di folder yang sesuai. Klik pada link di bawah untuk melihat laporan:
 
-- [Week 1 - Pengantar Mobile & Web Service](https://github.com/eveeze/uty-mobile-web-service/blob/main/week_1/week1.md)
+- [Week 1 - Laporan Minggu Pertama Mobile & Web Service Praktik Kelas IX](https://github.com/eveeze/uty-mobile-web-service/blob/main/week_1/week1.md)
 - Week 2 - Segera Hadir
 - Week 3 - Segera Hadir
 - ...
