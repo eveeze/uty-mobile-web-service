@@ -16,9 +16,9 @@
       - [Web Server](#web-server)
     - [Bahasa Pemrograman yang Saya Pelajari](#bahasa-pemrograman-yang-saya-pelajari)
       - [1.1. **Python**](#11-python)
-      - [1.2.  **JavaScript**](#12--javascript)
-      - [1.3.   **PHP**](#13---php)
-      - [1.4.  **Dart**](#14--dart)
+      - [1.2. **JavaScript**](#12-javascript)
+      - [1.3. **PHP**](#13-php)
+      - [1.4. **Dart**](#14-dart)
   - [3. 🚀 Menginstal Flutter di Laptop Saya](#3--menginstal-flutter-di-laptop-saya)
     - [3.1. **Informasi Sistem**](#31-informasi-sistem)
     - [3.2. **Proses Instalasi**](#32-proses-instalasi)
@@ -72,7 +72,8 @@ Kode di atas merupakan kode pertama saya . Saya mulai belajar Python ketika masi
 
 ---
 
-#### 1.2. <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" width="50" height="50"/> **JavaScript**
+#### 1.2. **JavaScript**
+<img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" width="100" height="100"/><br>
 JavaScript adalah bahasa pemrograman kedua yang saya pelajari, dan saya mulai menggunakannya saat kuliah. Saya menggunakan JavaScript terutama untuk menambah interaktivitas pada halaman web, dan sejak saat itu, JavaScript menjadi bagian dari perjalanan saya dalam pengembangan web.
 
 Selain mempelajari JavaScript murni, saya juga mempelajari beberapa **library** dan **framework** populer yang terkait dengan JavaScript:
@@ -84,14 +85,16 @@ Belajar JavaScript dan framework terkait ini telah membuka banyak pintu bagi say
 
 ---
 
-#### 1.3.  <img src="https://brandeps.com/logo-download/P/PHP-logo-vector-01.svg" width="50" height="50"/> **PHP**
+#### 1.3. **PHP**
+<img src="https://brandeps.com/logo-download/P/PHP-logo-vector-01.svg" width="100" height="100"/> <br>
 Saya mulai mempelajari PHP pada semester 3, karena pada saat itu, saya mengikuti mata kuliah Pemrograman Web. PHP adalah bahasa pemrograman server-side yang sering digunakan untuk membangun website dinamis.
 
 Meskipun saya tidak terlalu mendalami PHP, saya sempat mempelajari framework **Laravel** yang cukup populer dalam pengembangan aplikasi web dengan arsitektur MVC (Model-View-Controller). PHP menjadi pengalaman pertama saya dalam mengelola back-end dari sebuah aplikasi web.
 
 ---
 
-#### 1.4. <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" width="50" height="50"/> **Dart**
+#### 1.4. **Dart**
+<img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" width="100" height="100"/> <br>
 Saya mulai mempelajari Dart setelah semester 4 berakhir, tepatnya saat liburan semester genap. Alasan utama saya mempelajari Dart adalah untuk persiapan mata kuliah semester 5 yang akan membahas pengembangan aplikasi mobile, mengingat saya mengambil penjurusan web dan mobile.
 
 Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untuk membangun aplikasi mobile lintas platform. Saat ini, saya masih mempelajari dasar-dasar sintaks Dart seperti variabel, fungsi, dan kontrol alur, sebagai persiapan untuk mendalami Flutter lebih lanjut.
