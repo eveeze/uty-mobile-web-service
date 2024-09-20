@@ -65,10 +65,8 @@ Web server berfungsi untuk menangani permintaan dari client (mobile/web) dan men
 #### 1.1. **Python** 
 <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" width="100" height="100"/><br>  
 Python merupakan bahasa pemrograman pertama yang saya pelajari. Awalnya, saya ingin mempelajari **C++**, namun saya kesulitan memahami konsep-konsepnya. Akhirnya, saya beralih ke Python, yang dikenal lebih mudah dipahami oleh pemula.
-```python
-print("hello world")
-```
-Kode di atas merupakan kode pertama saya . Saya mulai belajar Python ketika masih duduk di bangku SMA. Meskipun saya tidak mendalaminya secara intensif, saya memahami dasar-dasar sintaks Python seperti variabel, kondisi, dan perulangan. Pengalaman ini menjadi fondasi yang kuat untuk belajar bahasa pemrograman lain di masa depan.
+
+Saya mulai belajar Python ketika masih duduk di bangku SMA. Meskipun saya tidak mendalaminya secara intensif, saya memahami dasar-dasar sintaks Python seperti variabel, kondisi, dan perulangan. Pengalaman ini menjadi fondasi yang kuat untuk belajar bahasa pemrograman lain di masa depan.
 
 ---
 
@@ -171,7 +169,45 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 ![doctor flutter](images/doctor.png)
 
 ## 4. Membuat Hello World dan Penjelasanya
-Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberapa bahasa pemrograman yang telah saya pelajari, beserta penjelasannya.
+Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberapa bahasa pemrograman terutama flutter.
+1. **Flutter**
+- Buka terminal di proyek flutter dan jalankan perintah berikut:
+
+    ```bash
+    flutter create hello_world
+    cd hello_world
+    ```
+    ![create hello_world](images/flutter_create.png)
+- Buka file `lib/main.dart` dan ketik kode di bawah ini:
+  ```dart
+    import 'package:flutter/material.dart';
+
+    void main() {
+      runApp(const MyApp());
+    }
+
+    class MyApp extends StatelessWidget {
+      const MyApp({super.key});
+
+      @override
+      Widget build(BuildContext context) {
+        return const MaterialApp(
+          home: Scaffold(
+            body: Center(
+              child: Text('Hello, World!'),
+            ),
+          ),
+        );
+      }
+    }
+    ```
+    ![flutter code](images/flutter_code.png)
+- Simpan perubahan dan jalankan aplikasi menggunakan command 
+    ```bash
+    flutter run
+    ```
+![gambar flutter run](images/flutter_run.png)
+![gambar flutter run](images/run.png)
 
 1. **Python**   
 
@@ -189,7 +225,7 @@ Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberap
     **Penjelasan :**
 -  Di JavaScript, untuk menampilkan output ke konsol, kita menggunakan fungsi console.log().
 -  Seperti pada Python, teks harus berada di dalam tanda kutip. console.log() akan mencetak teks "hello gais" ke konsol browser atau Node.js.
-3. **PHP**
+1. **PHP**
     ```PHP
     <?php
     echo "Hello, World!";
@@ -199,7 +235,7 @@ Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberap
 - Untuk menampilkan teks di PHP, kita menggunakan perintah echo.
 - Teks harus berada di dalam tanda kutip, dan setiap pernyataan diakhiri dengan titik koma.
 
-4. **Dart**
+1. **Dart**
     ```Dart
     void main(){
         print('hello dunia');
