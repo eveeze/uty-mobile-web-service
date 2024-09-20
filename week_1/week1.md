@@ -5,6 +5,32 @@
 
 ---
 
+# Daftar Isi
+
+- [📝 Laporan Minggu Pertama Mobile \& Web Service Praktik Kelas IX](#-laporan-minggu-pertama-mobile--web-service-praktik-kelas-ix)
+- [Daftar Isi](#daftar-isi)
+  - [🌐 Review Bahasa Pemrograman](#-review-bahasa-pemrograman)
+    - [Review](#review)
+      - [Aplikasi Mobile](#aplikasi-mobile)
+      - [Aplikasi Website](#aplikasi-website)
+      - [Web Server](#web-server)
+    - [Bahasa Pemrograman yang Saya Pelajari](#bahasa-pemrograman-yang-saya-pelajari)
+      - [1.1. **Python**](#11-python)
+      - [1.2.  **JavaScript**](#12--javascript)
+      - [1.3.   **PHP**](#13---php)
+      - [1.4.  **Dart**](#14--dart)
+  - [3. 🚀 Menginstal Flutter di Laptop Saya](#3--menginstal-flutter-di-laptop-saya)
+    - [3.1. **Informasi Sistem**](#31-informasi-sistem)
+    - [3.2. **Proses Instalasi**](#32-proses-instalasi)
+      - [Langkah 1: Mengunduh Flutter SDK](#langkah-1-mengunduh-flutter-sdk)
+      - [Langkah 2: Menyetel Variabel Lingkungan](#langkah-2-menyetel-variabel-lingkungan)
+      - [Langkah 3: Memverifikasi Instalasi](#langkah-3-memverifikasi-instalasi)
+      - [Langkah 4: Menginstal Android Studio](#langkah-4-menginstal-android-studio)
+  - [4. Membuat Hello World dan Penjelasanya](#4-membuat-hello-world-dan-penjelasanya)
+
+
+---
+
 ## 🌐 Review Bahasa Pemrograman
 ### Review
 Terdapat banyak sekali bahasa pemrograman ataupun framework yang digunakan dalam keperluan untuk mendevelop sebuah mobile atau web service .
@@ -36,7 +62,8 @@ Web server berfungsi untuk menangani permintaan dari client (mobile/web) dan men
 - **Go**  
 
 ### Bahasa Pemrograman yang Saya Pelajari
-#### 1.1. <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" width="50" height="50"/> **Python**   
+#### 1.1. **Python** 
+<img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" width="100" height="100"/><br>  
 Python merupakan bahasa pemrograman pertama yang saya pelajari. Awalnya, saya ingin mempelajari **C++**, namun saya kesulitan memahami konsep-konsepnya. Akhirnya, saya beralih ke Python, yang dikenal lebih mudah dipahami oleh pemula.
 ```python
 print("hello world")
