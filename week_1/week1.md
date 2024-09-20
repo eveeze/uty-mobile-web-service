@@ -209,7 +209,7 @@ Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberap
 ![gambar flutter run](images/flutter_run.png)
 ![gambar flutter run](images/run.png)
 
-1. **Python**   
+2. **Python**   
 
     ```python
     print("hello dunia")
@@ -218,14 +218,14 @@ Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberap
   - Print() adalah fungsi bawaan Python yang digunakan untuk menampilkan teks atau hasil ke terminal.
  - Teks yang ingin ditampilkan harus berada di dalam tanda kutip, seperti "hello dunia"
 
-2. **JavaScript**
+3. **JavaScript**
     ```javascript
     console.log("hello gais");
     ```
     **Penjelasan :**
 -  Di JavaScript, untuk menampilkan output ke konsol, kita menggunakan fungsi console.log().
 -  Seperti pada Python, teks harus berada di dalam tanda kutip. console.log() akan mencetak teks "hello gais" ke konsol browser atau Node.js.
-1. **PHP**
+4. **PHP**
     ```PHP
     <?php
     echo "Hello, World!";
@@ -235,7 +235,7 @@ Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberap
 - Untuk menampilkan teks di PHP, kita menggunakan perintah echo.
 - Teks harus berada di dalam tanda kutip, dan setiap pernyataan diakhiri dengan titik koma.
 
-1. **Dart**
+4. **Dart**
     ```Dart
     void main(){
         print('hello dunia');
