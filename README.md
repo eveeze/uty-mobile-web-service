@@ -12,8 +12,8 @@ Repositori ini berisi tugas mingguan mata kuliah **Mobile & Web Service Praktik*
 
 ## 📅 Laporan Mingguan
 
-- [Week 1 - Pertemuan 1 (20 September 2024)](https://github.com/eveeze/uty-mobile-web-service/blob/main/week_1/week1.md)
-- **Week 2 - Pertemuan 2** *(Segera Hadir)*
+- [Week 1 - Pertemuan 1 tanggal upload (20 September 2024)](https://github.com/eveeze/uty-mobile-web-service/blob/main/week_1/week1.md)
+- [Week 2 - Pertemuan 2 tanggal upload (1 Oktober 2024)](https://github.com/eveeze/uty-mobile-web-service/blob/main/week_2/week2.md)
 - **Week 3 - Pertemuan 3** *(Segera Hadir)*
 - **Week 4 - Pertemuan 4** *(Segera Hadir)*
 - ...
