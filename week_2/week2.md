@@ -89,7 +89,7 @@ AppBar(
 )
 
 ```
-![Widget AppBar Flutter](/images/appBar.png)<br>
+![Widget AppBar Flutter](./images/appBar.png)<br>
 
 ### Row & Column 📐
 Row dan Column adalah widget tata letak yang mengatur widget anak secara horizontal atau vertikal.
