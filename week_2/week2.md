@@ -244,6 +244,6 @@ class _BelajarHomePageState extends State<BelajarHomePage> {
 }
 
 ```
-![app flutter png](/images/app.png)
+![app flutter png](./images/app.png)
 
 seluruh kode akan saya berikan di dalam folder [belajar_flutter](https://github.com/eveeze/uty-mobile-web-service/tree/week2/week_2/belajar_flutter).
