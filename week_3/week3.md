@@ -465,7 +465,7 @@ Setelah menambahkan `setState()`, aplikasi dapat mengubah mode tampilan antara `
 
 # Penutup
 -------
-untuk kode keseluruhan dari simple todo akan ada di folder [SIMPLE_APP]()
+untuk kode keseluruhan dari simple todo akan ada di folder [simple_app](https://github.com/eveeze/uty-mobile-web-service/tree/week3/week_3/simple_app)
 
 
 # Referensi
