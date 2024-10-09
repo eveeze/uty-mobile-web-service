@@ -1,4 +1,4 @@
-📝 Laporan Minggu Kedua Mobile & Web Service Praktik Kelas IX
+📝 Laporan Minggu Ketiga Mobile & Web Service Praktik Kelas IX
 =============================================================
 
 **Nama**: Tito Zaki Saputro\
@@ -9,7 +9,7 @@
 Daftar Isi
 ----------
 
-- [📝 Laporan Minggu Kedua Mobile \& Web Service Praktik Kelas IX](#-laporan-minggu-kedua-mobile--web-service-praktik-kelas-ix)
+- [📝 Laporan Minggu Ketiga Mobile \& Web Service Praktik Kelas IX](#-laporan-minggu-ketiga-mobile--web-service-praktik-kelas-ix)
   - [Daftar Isi](#daftar-isi)
   - [Pendahuluan](#pendahuluan)
   - [Penjelasan Widget yang Digunakan](#penjelasan-widget-yang-digunakan)
