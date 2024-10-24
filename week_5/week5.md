@@ -676,6 +676,6 @@ Status 404 jika ID produk tidak ditemukan.
 
 # Referensi
 -------
-- Flutter Documentation: [flutter.dev](https://flutter.dev/)
-- ListView.builder Widget: [ListView.builder Docs](https://api.flutter.dev/flutter/widgets/ListView-class.html)
-- GridView.builder Widget: [GridView.builder Doc](https://api.flutter.dev/flutter/widgets/GridView-class.html)
+- Express Js Documentation: [expressjs.com](https://expressjs.com/en/5x/api.html)
+- Postman Documentation: [learning.postman.com](https://learning.postman.com/docs/introduction/overview/)
+- Node Js Documentation: [nodejs.org](https://nodejs.org/docs/latest/api/)
