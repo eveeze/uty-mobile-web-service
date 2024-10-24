@@ -27,6 +27,7 @@
   - [`GET`](#get)
   - [`PUT`](#put)
   - [`DELETE`](#delete)
+- [Referensi](#referensi)
 
 ---
 # Pendahuluan
@@ -673,3 +674,8 @@ di database sudah terhapus
 
 Status 404 jika ID produk tidak ditemukan.
 
+# Referensi
+-------
+- Flutter Documentation: [flutter.dev](https://flutter.dev/)
+- ListView.builder Widget: [ListView.builder Docs](https://api.flutter.dev/flutter/widgets/ListView-class.html)
+- GridView.builder Widget: [GridView.builder Doc](https://api.flutter.dev/flutter/widgets/GridView-class.html)
