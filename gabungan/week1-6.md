@@ -28,6 +28,13 @@
       - [Langkah 3: Memverifikasi Instalasi](#langkah-3-memverifikasi-instalasi)
       - [Langkah 4: Menginstal Android Studio](#langkah-4-menginstal-android-studio)
   - [4. Membuat Hello World dan Penjelasanya](#4-membuat-hello-world-dan-penjelasanya)
+- [MINGGU 2](#minggu-2)
+  - [Pendahuluan 2](#pendahuluan-2)
+  - [🤔 Apa itu WIDGET ?](#-apa-itu-widget-)
+  - [Stateless Widget dan Stateful Widget](#stateless-widget-dan-stateful-widget)
+    - [Stateless Widget 🗿](#stateless-widget-)
+    - [Stateful Widget 🧩](#stateful-widget-)
+    - [MaterialApp Widget 🌐](#materialapp-widget-)
     - [Scaffold Widget 🏗️](#scaffold-widget-️)
     - [AppBar 📜](#appbar-)
     - [Row \& Column 📐](#row--column-)
@@ -75,7 +82,7 @@
 - [Penutup](#penutup)
 - [Referensi](#referensi)
 - [MINGGU 4](#minggu-4)
-- [Pendahuluan](#pendahuluan)
+- [Pendahuluan 4](#pendahuluan-4)
 - [Penjelasan](#penjelasan)
   - [1. Struktur](#1-struktur)
   - [2. main function](#2-main-function)
@@ -109,7 +116,7 @@
         - [`SizedBox(height: 24)`](#sizedboxheight-24-1)
 - [Referensi week 4](#referensi-week-4)
 - [MINGGU 5](#minggu-5)
-- [Pendahuluan](#pendahuluan-1)
+- [Pendahuluan 5](#pendahuluan-5)
 - [1. Tugas Widget dibuat Menggunakan Figma](#1-tugas-widget-dibuat-menggunakan-figma)
 - [2. Review Materi REST API](#2-review-materi-rest-api)
   - [Karakteristik REST API](#karakteristik-rest-api)
@@ -130,7 +137,7 @@
   - [`GET`](#get)
   - [`PUT`](#put)
   - [`DELETE`](#delete)
-- [Referensi](#referensi-1)
+- [Referensi 5](#referensi-5)
 - [MINGGU 6](#minggu-6)
   - [Dokumentasi Hasil Belajar Minggu ke-06](#dokumentasi-hasil-belajar-minggu-ke-06)
     - [1. Membuat Tutorial Konversi Desain Figma ke Flutter](#1-membuat-tutorial-konversi-desain-figma-ke-flutter)
@@ -142,7 +149,7 @@
     - [3. Mengintegrasikan Desain Figma (Flutter) dengan API](#3-mengintegrasikan-desain-figma-flutter-dengan-api)
   - [Kesimpulan](#kesimpulan)
   - [ERROR](#error)
-  - [Referensi](#referensi-2)
+  - [Referensi 6](#referensi-6)
 
 
 
@@ -289,91 +296,86 @@ Dart adalah bahasa pemrograman yang digunakan bersama framework **Flutter** untu
 
 ## 4. Membuat Hello World dan Penjelasanya
 Berikut adalah bagaimana cara membuat program sederhana "Hello World" di beberapa bahasa pemrograman terutama flutter.
-1. **Flutter**
-- Buka terminal di proyek flutter dan jalankan perintah berikut:
+  1. **Flutter**
+  - Buka terminal di proyek flutter dan jalankan perintah berikut:
 
-    ```bash
-    flutter create hello_world
-    cd hello_world
-    ```
-    ![create hello_world](imagesw1/flutter_create.png)
-- Buka file `lib/main.dart` dan ketik kode di bawah ini:
-  ```dart
-    import 'package:flutter/material.dart';
+      ```bash
+      flutter create hello_world
+      cd hello_world
+      ```
+      ![create hello_world](imagesw1/flutter_create.png)
+  - Buka file `lib/main.dart` dan ketik kode di bawah ini:
+    ```dart
+      import 'package:flutter/material.dart';
 
-    void main() {
-      runApp(const MyApp());
-    }
-
-    class MyApp extends StatelessWidget {
-      const MyApp({super.key});
-
-      @override
-      Widget build(BuildContext context) {
-        return const MaterialApp(
-          home: Scaffold(
-            body: Center(
-              child: Text('Hello, World!'),
-            ),
-          ),
-        );
+      void main() {
+        runApp(const MyApp());
       }
-    }
-    ```
-    ![flutter code](imagesw1/flutter_code.png)
-- Simpan perubahan dan jalankan aplikasi menggunakan command 
-    ```bash
-    flutter run
-    ```
-![gambar flutter run](imagesw1/flutter_run.png)
-![gambar flutter run](imagesw1/run.png)
 
-2. **Python**   
+      class MyApp extends StatelessWidget {
+        const MyApp({super.key});
 
-    ```python
-    print("hello dunia")
-    ```
-    **Penjelasan :**
-  - Print() adalah fungsi bawaan Python yang digunakan untuk menampilkan teks atau hasil ke terminal.
- - Teks yang ingin ditampilkan harus berada di dalam tanda kutip, seperti "hello dunia"
+        @override
+        Widget build(BuildContext context) {
+          return const MaterialApp(
+            home: Scaffold(
+              body: Center(
+                child: Text('Hello, World!'),
+              ),
+            ),
+          );
+        }
+      }
+      ```
+      ![flutter code](imagesw1/flutter_code.png)
+  - Simpan perubahan dan jalankan aplikasi menggunakan command 
+      ```bash
+      flutter run
+      ```
+  ![gambar flutter run](imagesw1/flutter_run.png)
+  ![gambar flutter run](imagesw1/run.png)
 
-3. **JavaScript**
-    ```javascript
-    console.log("hello gais");
-    ```
-    **Penjelasan :**
--  Di JavaScript, untuk menampilkan output ke konsol, kita menggunakan fungsi console.log().
--  Seperti pada Python, teks harus berada di dalam tanda kutip. console.log() akan mencetak teks "hello gais" ke konsol browser atau Node.js.
-4. **PHP**
-    ```PHP
-    <?php
-    echo "Hello, World!";
-    ?>
-    ```
-    **Penjelasan :**
-- Untuk menampilkan teks di PHP, kita menggunakan perintah echo.
-- Teks harus berada di dalam tanda kutip, dan setiap pernyataan diakhiri dengan titik koma.
+  2. **Python**   
 
-4. **Dart**
-    ```Dart
-    void main(){
-        print('hello dunia');
-    }
-    ```
-    **Penjelasan :**
-- Fungsi main() adalah titik masuk utama dari program Dart, dan di dalamnya kita menggunakan print() untuk menampilkan teks ke konsol.
-- Teks yang ditampilkan berada di dalam tanda kutip tunggal atau ganda.
+      ```python
+      print("hello dunia")
+      ```
+      **Penjelasan :**
+    - Print() adalah fungsi bawaan Python yang digunakan untuk menampilkan teks atau hasil ke terminal.
+   - Teks yang ingin ditampilkan harus berada di dalam tanda kutip, seperti "hello dunia"
 
-## Referensi minggu 1
-- https://flutter.dev/
-- https://jakarta.telkomuniversity.ac.id/belajar-flutter-tutorial-penginstallan-pada-windows-untuk-pemula/
+  3. **JavaScript**
+      ```javascript
+      console.log("hello gais");
+      ```
+      **Penjelasan :**
+  -  Di JavaScript, untuk menampilkan output ke konsol, kita menggunakan fungsi console.log().
+  -  Seperti pada Python, teks harus berada di dalam tanda kutip. console.log() akan mencetak teks "hello gais" ke konsol browser atau Node.js.
+  4. **PHP**
+      ```PHP
+      <?php
+      echo "Hello, World!";
+      ?>
+      ```
+      **Penjelasan :**
+  - Untuk menampilkan teks di PHP, kita menggunakan perintah echo.
+  - Teks harus berada di dalam tanda kutip, dan setiap pernyataan diakhiri dengan titik koma.
 
+  4. **Dart**
+      ```Dart
+      void main(){
+          print('hello dunia');
+      }
+      ```
+      **Penjelasan :**
+  - Fungsi main() adalah titik masuk utama dari program Dart, dan di dalamnya kita menggunakan print() untuk menampilkan teks ke konsol.
+  - Teks yang ditampilkan berada di dalam tanda kutip tunggal atau ganda.
 
 --- 
 
 # MINGGU 2
 HASIL PERTEMUAN 2
-## Pendahuluan
+## Pendahuluan 2
 
 Pada minggu kedua ini, saya mempelajari framework **Flutter** untuk pengembangan aplikasi mobile. untuk **IDE** yang saya gunakan adalah **Visual Studio Code** dan untuk virtual device nya saya menggunakan *Pixel 8 Pro* dari **Android Studio**
 
@@ -921,7 +923,7 @@ untuk kode keseluruhan dari simple todo akan ada di folder [simple_app](https://
 
 # MINGGU 4
 
-# Pendahuluan
+# Pendahuluan 4
 Pada minggu-4 diberikan tugas untuk slicing ui bertema food app . terdapat login section dan home section. berikut laporan dari tugas minggu-4.
 
 # Penjelasan
@@ -1575,7 +1577,7 @@ class MainScreen extends StatelessWidget {
 
 
 ---
-# Pendahuluan
+# Pendahuluan 5
 Pada minggu kelima kali ini tuntutan hasil belajar untuk minggu ini ada 
 1. Dari tugas widget, dibuat menggunakan figma
 2. Review materi Rest API
@@ -2219,7 +2221,7 @@ di database sudah terhapus
 
 Status 404 jika ID produk tidak ditemukan.
 
-# Referensi
+# Referensi 5
 -------
 - Express Js Documentation: [expressjs.com](https://expressjs.com/en/5x/api.html)
 - Postman Documentation: [learning.postman.com](https://learning.postman.com/docs/introduction/overview/)
@@ -6022,7 +6024,7 @@ error nya kebanyakan gabisa di dokumentasi pak gaboong
 
 --- 
 
-## Referensi
+## Referensi 6
 - https://flutter.dev/
 - https://expressjs.com/
 - https://fonnte.com/
