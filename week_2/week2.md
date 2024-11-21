@@ -8,6 +8,7 @@
 ## Daftar Isi
 - [📝 Laporan Minggu Kedua Mobile \& Web Service Praktik Kelas IX](#-laporan-minggu-kedua-mobile--web-service-praktik-kelas-ix)
   - [Daftar Isi](#daftar-isi)
+- [MINGGU 2](#minggu-2)
   - [Pendahuluan](#pendahuluan)
   - [🤔 Apa itu WIDGET ?](#-apa-itu-widget-)
   - [Stateless Widget dan Stateful Widget](#stateless-widget-dan-stateful-widget)
@@ -24,7 +25,7 @@
   - [**Contoh Implementasi dalam Aplikasi FLutter**](#contoh-implementasi-dalam-aplikasi-flutter)
 
 ---
-
+# MINGGU 2
 ## Pendahuluan
 
 Pada minggu kedua ini, saya mempelajari framework **Flutter** untuk pengembangan aplikasi mobile. untuk **IDE** yang saya gunakan adalah **Visual Studio Code** dan untuk virtual device nya saya menggunakan *Pixel 8 Pro* dari **Android Studio**
